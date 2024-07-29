@@ -1,0 +1,20 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+}
+.grid-fluid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+}
+
+.loader{
+    display: block;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}

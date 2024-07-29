@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buscador de Shows</title>
+    <title>Buscador de Shows de TV</title>
     <link rel="stylesheet" href="./css/styles.css">
+    
 </head>
 <body>
     
+    <h1>Buscador de Shows de TV</h1>
+    <input type="search" id="search" placeholder="Buscar shows..." autocomplete="off">
+    <section id="shows" class="grid-fluid"></section>
 
 
-
-
-
+    <template id="show-template">
+        <article class="show">
+            <h3></h3>
+            <div></div>
+            <img>
+            <a></a>
+        </article>
+    </template>
 
 
     <script src="./js/main.js"></script>
